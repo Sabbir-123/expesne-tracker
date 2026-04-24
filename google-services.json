@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812302081374",
+    "project_id": "expense1-512a2",
+    "storage_bucket": "expense1-512a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812302081374:android:56223ec74c09fd9c74c3cf",
+        "android_client_info": {
+          "package_name": "com.speakspend.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF74XJYot6fh-rFhq1WDAshMadu0mue90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

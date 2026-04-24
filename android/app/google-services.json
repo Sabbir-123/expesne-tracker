@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661097529822",
+    "project_id": "flutter-expense-tracker-7725e",
+    "storage_bucket": "flutter-expense-tracker-7725e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661097529822:android:d3d3534d7fc5c923f09d4f",
+        "android_client_info": {
+          "package_name": "com.speakspend.speakspend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp-axnIuLZP8lRTbaW8ukC0gnfzWQ9srI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
