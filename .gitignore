@@ -1,45 +1,94 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+# ==================================================
+# SPEAKSPEND - PRODUCTION GITIGNORE
+# ==================================================
 
-# IntelliJ related
+# --------------------------------------------------
+# 1. SECRETS (NEVER COMMIT)
+# --------------------------------------------------
+.env
+.env.*
+*.env
+*.pem
+*.key
+google-services.json.backup
+GoogleService-Info.plist.backup
+
+# --------------------------------------------------
+# 2. FLUTTER GENERATED / BUILD FILES
+# --------------------------------------------------
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+**/doc/api/
+
+# --------------------------------------------------
+# 3. IDE / EDITOR SETTINGS
+# --------------------------------------------------
+.vscode/
+.idea/
 *.iml
 *.ipr
 *.iws
-.idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# --------------------------------------------------
+# 4. OS SPECIFIC JUNK
+# --------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+# --------------------------------------------------
+# 5. LOGS & COVERAGE
+# --------------------------------------------------
+*.log
+firebase-debug.log
+firestore-debug.log
+coverage/
 
-# Symbolication related
-app.*.symbols
+# --------------------------------------------------
+# 6. ANDROID SPECIFIC
+# --------------------------------------------------
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/build/
+android/local.properties
+android/key.properties
+**/*.keystore
+**/*.jks
 
-# Obfuscation related
-app.*.map.json
+# --------------------------------------------------
+# 7. IOS SPECIFIC
+# --------------------------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/flutter_assets/
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.perspectivev3
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# --------------------------------------------------
+# 8. MACOS SPECIFIC
+# --------------------------------------------------
+macos/Pods/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# --------------------------------------------------
+# 9. WEB SPECIFIC
+# --------------------------------------------------
+build/web/
