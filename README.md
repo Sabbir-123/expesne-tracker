@@ -1,17 +1,22 @@
-# speakspend
+# SpeakSpend - AI Expense Tracker
 
-A new Flutter project.
+SpeakSpend is an elite, voice-first expense tracker powered by Flutter, engineered with a beautiful glassmorphic UI representing 2026 fintech application aesthetics.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Voice-First Input**: Integrates the `record` package with high-fidelity streams for instantaneous voice dictation.
+- **NLP Expense Parsing**: A sophisticated dual-tier parsing engine. 
+   - **Tier 1 (Regex)**: Ultra-fast local identification of currencies, categories, and amounts directly offline.
+   - **Tier 2 (AI)**: Seamless cloud delegation to DeepSeek via OpenRouter and OpenAI Whisper for complex contextual phrasing processing.
+- **Glassmorphic Financial Dashboard**: Features a premium animated floating AI Orb, frosted backdrop blur filters, and real-time sparkline balance widgets.
+- **Instant Firestore Synchronization**: State-sync seamlessly across Android, iOS, and Web backends in real-time.
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture & Technology
+- Framework: Flutter & Dart
+- Audio Engine: Record 
+- State Controller: Riverpod 
+- APIs: OpenAI Whisper (Audio), OpenRouter DeepSeek (NLP)
+- Database: Firebase Firestore
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Demo Environments
+Fully adaptive environments rendering flawlessly on iOS natively, Android Studio, and Chrome Web debug.
